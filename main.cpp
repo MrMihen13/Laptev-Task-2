@@ -336,15 +336,15 @@ enum Actions
 
 int main()
 {
-    int  size = 0;
+    int  string_size = 0;
 
-    std::cin >> size;
+    std::cin >> string_size;
 
     Bitstring first;
     Bitstring second;
 
-    first.read(size);
-    second.read(size);
+    first.read(string_size);
+    second.read(string_size);
 
     Bitstring::display(first, second);
 
